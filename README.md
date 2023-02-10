@@ -1,4 +1,4 @@
-﻿# simples-atenticacao-com-envio-de-email
+﻿# Autenticação simples com JWT para envio de email
 
 Para consumir testar, é necessário realizar os seguintes passos: 
 
