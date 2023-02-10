@@ -1,0 +1,15 @@
+
+POST http://localhost:8081/api/usuarios/email
+Content-Type: application/json 
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzIiwiaWF0IjoxNjc2MDc3Mjc1LCJleHAiOjE2NzYwNzcyNzV9.LDo6wuhLdP4jma1lUw9C8YjoplSrjDe0Ktj3J3LEoioE0QEPscH2cjtBqOH5I5DIvoi9wokogmu98Aytg1eTEw
+
+{
+    
+    "assunto": "Elaine",
+    "mensagem": "Deu certo!",
+    "remetente": "elaine.ssantos.2013@gmail.com",
+    "destinatarios": [
+        "fulano@gmail.com",
+        "beltrano@gmail.com"
+    ]
+}
